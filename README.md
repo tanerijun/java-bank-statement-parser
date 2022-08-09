@@ -2,6 +2,7 @@
 
 Bank Statement Analyzer take in your bank statement as an input and analyze it.
 
+## Introduction
 The bank statement has to be a _csv_ file, and formatted like this example:
 
 ```
@@ -19,3 +20,7 @@ Bank Statement Analyzer will analyze the following information:
 2. Number of transactions
 3. Top-10 expenses
 4. Category with the highest spending
+
+## Usage
+
+To use the app, put the file inside _src/main/resources/_ and run the app with the file name as command line argument.
