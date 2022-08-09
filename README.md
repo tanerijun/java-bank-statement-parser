@@ -17,7 +17,7 @@ The bank statement has to be a _csv_ file, and formatted like this example:
 
 Bank Statement Analyzer will analyze the following information:
 1. Total profit and loss
-2. Number of transactions
+2. Number of transactions each month
 3. Top-10 expenses
 4. Category with the highest spending
 

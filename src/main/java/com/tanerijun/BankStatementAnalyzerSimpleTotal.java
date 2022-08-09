@@ -1,3 +1,7 @@
+/**
+ * Prints the total for all transactions in the bank statement.
+ */
+
 package main.java.com.tanerijun;
 
 import java.io.IOException;
@@ -5,7 +9,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.List;
 
-public class BankStatementAnalyzer {
+public class BankStatementAnalyzerSimpleTotal {
     private static final String RESOURCES = "src/main/resources/";
 
     public static void main(String[] args) throws IOException {
