@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be420c16-6774-4efd-81ef-55826a723464" name="Changes" comment="Create basic app skeleton, update README.md">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tanerijun/BankStatementAnalyzerMonthTotal.java" afterDir="false" />
+    <list default="true" id="be420c16-6774-4efd-81ef-55826a723464" name="Changes" comment="Add a class to calculate the total of transactions for a particular month">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tanerijun/BankStatementAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tanerijun/BankStatementCSVParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tanerijun/BankTransaction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tanerijun/BankStatementAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tanerijun/BankStatementAnalyzerSimpleTotal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +43,22 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BankStatementAnalyzerMonthTotal">
+  <component name="RunManager" selected="Application.BankStatementAnalyzer">
     <configuration name="BankStatementAnalyzer" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.com.tanerijun.BankStatementAnalyzer" />
+      <module name="bank-statement-analyzer" />
+      <option name="PROGRAM_PARAMETERS" value="statements.csv" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.com.tanerijun.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankStatementAnalyzer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.com.tanerijun.BankStatementAnalyzer" />
       <module name="bank-statement-analyzer" />
       <option name="PROGRAM_PARAMETERS" value="statements.csv" />
@@ -72,6 +86,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BankStatementAnalyzer" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -96,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660051826534</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add a class to calculate the total of transactions for a particular month">
+      <created>1660053172869</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660053172869</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -116,6 +142,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Create basic app skeleton, update README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create basic app skeleton, update README.md" />
+    <MESSAGE value="Add a class to calculate the total of transactions for a particular month" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add a class to calculate the total of transactions for a particular month" />
   </component>
 </project>
