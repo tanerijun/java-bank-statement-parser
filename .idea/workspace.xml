@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be420c16-6774-4efd-81ef-55826a723464" name="Changes" comment="Group the calculation methods into a separate class">
+    <list default="true" id="be420c16-6774-4efd-81ef-55826a723464" name="Changes" comment="Add calculation method for month and category, also add a method that summarize every info">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tanerijun/IBankStatementParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tanerijun/BankStatementAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tanerijun/BankStatementAnalyzer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tanerijun/BankStatementProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tanerijun/BankStatementProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tanerijun/BankStatementCSVParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tanerijun/BankStatementCSVParser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -135,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660110032771</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add calculation method for month and category, also add a method that summarize every info">
+      <created>1660110529856</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1660110529856</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -158,6 +168,7 @@
     <MESSAGE value="Add a class to calculate the total of transactions for a particular month" />
     <MESSAGE value="Implementing SRP" />
     <MESSAGE value="Group the calculation methods into a separate class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Group the calculation methods into a separate class" />
+    <MESSAGE value="Add calculation method for month and category, also add a method that summarize every info" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add calculation method for month and category, also add a method that summarize every info" />
   </component>
 </project>
