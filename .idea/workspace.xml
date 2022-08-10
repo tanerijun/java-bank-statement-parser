@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be420c16-6774-4efd-81ef-55826a723464" name="Changes" comment="Add a unit test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tanerijun/BankTransactionInFebruaryAndExpensive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tanerijun/IBankTransactionFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tanerijun/BankStatementAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tanerijun/BankStatementAnalyzer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tanerijun/BankStatementProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tanerijun/BankStatementProcessor.java" afterDir="false" />
-    </list>
+    <list default="true" id="be420c16-6774-4efd-81ef-55826a723464" name="Changes" comment="Add feature to find transactions by filter" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -180,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660141796591</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add feature to find transactions by filter">
+      <created>1660143362832</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1660143362832</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -206,6 +207,7 @@
     <MESSAGE value="Add calculation method for month and category, also add a method that summarize every info" />
     <MESSAGE value="Make code more loosely coupled" />
     <MESSAGE value="Add a unit test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add a unit test" />
+    <MESSAGE value="Add feature to find transactions by filter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add feature to find transactions by filter" />
   </component>
 </project>

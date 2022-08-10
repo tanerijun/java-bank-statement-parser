@@ -38,5 +38,8 @@ public class BankStatementAnalyzer {
 
         System.out.println("Here are the transactions in February that cost $1000 or more: ");
         System.out.println(bankStatementProcessor.findTransactions(new BankTransactionInFebruaryAndExpensive()));
+
+        System.out.println("Here are all your expenses: ");
+        System.out.println(bankStatementProcessor.findTransactions(bankTransaction -> bankTransaction.getAmount() < 0));
     }
 }
