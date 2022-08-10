@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be420c16-6774-4efd-81ef-55826a723464" name="Changes" comment="Add calculation method for month and category, also add a method that summarize every info">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tanerijun/IBankStatementParser.java" afterDir="false" />
+    <list default="true" id="be420c16-6774-4efd-81ef-55826a723464" name="Changes" comment="Make code more loosely coupled">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/tanerijun/BankStatementCSVParserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tanerijun/BankStatementAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tanerijun/BankStatementAnalyzer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tanerijun/BankStatementCSVParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tanerijun/BankStatementCSVParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank-statement-analyzer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bank-statement-analyzer.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -34,18 +34,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
-  <component name="RunManager" selected="Application.BankStatementAnalyzer">
+}]]></component>
+  <component name="RunManager" selected="JUnit.BankStatementCSVParserTest">
     <configuration name="BankStatementAnalyzer" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.com.tanerijun.BankStatementAnalyzer" />
       <module name="bank-statement-analyzer" />
@@ -88,8 +92,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BankStatementCSVParserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bank-statement-analyzer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.com.tanerijun.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.com.tanerijun" />
+      <option name="MAIN_CLASS_NAME" value="test.java.com.tanerijun.BankStatementCSVParserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BankStatementCSVParserTest" />
         <item itemvalue="Application.BankStatementAnalyzer" />
       </list>
     </recent_temporary>
@@ -145,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660110529856</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Make code more loosely coupled">
+      <created>1660139796976</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1660139796976</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -169,6 +196,7 @@
     <MESSAGE value="Implementing SRP" />
     <MESSAGE value="Group the calculation methods into a separate class" />
     <MESSAGE value="Add calculation method for month and category, also add a method that summarize every info" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add calculation method for month and category, also add a method that summarize every info" />
+    <MESSAGE value="Make code more loosely coupled" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make code more loosely coupled" />
   </component>
 </project>
