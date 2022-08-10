@@ -9,7 +9,6 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.time.Month;
-import java.util.ArrayList;
 import java.util.List;
 
 public class BankStatementAnalyzer {
@@ -23,7 +22,13 @@ public class BankStatementAnalyzer {
         final List<BankTransaction> bankTransactions = bankStatementParser.parseLinesFromCSV(lines);
         final BankStatementProcessor processor = new BankStatementProcessor(bankTransactions);
 
-        System.out.println("The total for all transactions is " + processor.calculateTotalAmount());
-        System.out.println("The transactions in January " + processor.selectInMonth(Month.JANUARY));
+        collectSummary(processor);
+    }
+
+    public static void collectSummary(final BankStatementProcessor bankStatementProcessor) {
+        System.out.println("The total for all transactions is " + bankStatementProcessor.calculateTotalAmount());
+        System.out.println("The total for all transactions in January is " + bankStatementProcessor.calculateTotalInMonth(Month.JANUARY));
+        System.out.println("The total for all transactions in February is " + bankStatementProcessor.calculateTotalInMonth(Month.FEBRUARY));
+        System.out.println("The total salary is received is " + bankStatementProcessor.calculateTotalForCategory("Salary"));
     }
 }
