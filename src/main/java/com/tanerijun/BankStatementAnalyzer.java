@@ -35,5 +35,8 @@ public class BankStatementAnalyzer {
         System.out.println("The total for all transactions in January is " + bankStatementProcessor.calculateTotalInMonth(Month.JANUARY));
         System.out.println("The total for all transactions in February is " + bankStatementProcessor.calculateTotalInMonth(Month.FEBRUARY));
         System.out.println("The total salary is received is " + bankStatementProcessor.calculateTotalForCategory("Salary"));
+
+        System.out.println("Here are the transactions in February that cost $1000 or more: ");
+        System.out.println(bankStatementProcessor.findTransactions(new BankTransactionInFebruaryAndExpensive()));
     }
 }

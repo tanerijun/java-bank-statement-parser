@@ -21,17 +21,6 @@ public class BankStatementProcessor {
         return total;
     }
 
-    public List<BankTransaction> selectInMonth(final Month month) {
-        List<BankTransaction> bankTransactionsInMonth = new ArrayList<>();
-
-        for (final BankTransaction bankTransaction: bankTransactions) {
-            if (bankTransaction.getDate().getMonth() == month)
-                bankTransactionsInMonth.add(bankTransaction);
-        }
-
-        return bankTransactionsInMonth;
-    }
-
     public double calculateTotalInMonth(final Month month) {
         double total = 0;
         for(final BankTransaction bankTransaction: bankTransactions) {
@@ -52,5 +41,16 @@ public class BankStatementProcessor {
         }
 
         return total;
+    }
+
+    public List<BankTransaction> findTransactions(final IBankTransactionFilter bankTransactionFilter) {
+        final List<BankTransaction> result = new ArrayList<>();
+        for (final BankTransaction bankTransaction: bankTransactions) {
+            if (bankTransactionFilter.test(bankTransaction)) {
+                result.add(bankTransaction);
+            }
+        }
+
+        return result;
     }
 }

@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be420c16-6774-4efd-81ef-55826a723464" name="Changes" comment="Make code more loosely coupled">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/tanerijun/BankStatementCSVParserTest.java" afterDir="false" />
+    <list default="true" id="be420c16-6774-4efd-81ef-55826a723464" name="Changes" comment="Add a unit test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tanerijun/BankTransactionInFebruaryAndExpensive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tanerijun/IBankTransactionFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank-statement-analyzer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bank-statement-analyzer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tanerijun/BankStatementAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tanerijun/BankStatementAnalyzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tanerijun/BankStatementProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tanerijun/BankStatementProcessor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +50,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.BankStatementCSVParserTest">
+  <component name="RunManager" selected="Application.BankStatementAnalyzer">
     <configuration name="BankStatementAnalyzer" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.com.tanerijun.BankStatementAnalyzer" />
       <module name="bank-statement-analyzer" />
@@ -172,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660139796976</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add a unit test">
+      <created>1660141796591</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1660141796591</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -197,6 +205,7 @@
     <MESSAGE value="Group the calculation methods into a separate class" />
     <MESSAGE value="Add calculation method for month and category, also add a method that summarize every info" />
     <MESSAGE value="Make code more loosely coupled" />
-    <option name="LAST_COMMIT_MESSAGE" value="Make code more loosely coupled" />
+    <MESSAGE value="Add a unit test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add a unit test" />
   </component>
 </project>
