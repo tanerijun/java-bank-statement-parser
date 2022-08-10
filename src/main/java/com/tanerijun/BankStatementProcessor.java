@@ -1,3 +1,7 @@
+/**
+ * Performs statistical operations on bank transactions
+ */
+
 package main.java.com.tanerijun;
 
 import java.time.Month;

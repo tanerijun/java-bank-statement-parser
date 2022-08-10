@@ -2,7 +2,7 @@
  * Prints the total for all transactions in a particular month (January in this case).
  */
 
-package main.java.com.tanerijun;
+package main.java.com.tanerijun.old;
 
 import java.io.IOException;
 import java.nio.file.Files;

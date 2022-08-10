@@ -1,6 +1,5 @@
 /**
- * Improved version of BankStatementAnalyzerSimpleTotal and BankStatementAnalyzerMonthTotal
- * Implementing SRP, delegating to other classes and methods
+ * The entry point of the app
  */
 
 package main.java.com.tanerijun;

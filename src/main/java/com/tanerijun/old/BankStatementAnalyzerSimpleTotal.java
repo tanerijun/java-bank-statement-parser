@@ -2,7 +2,7 @@
  * Prints the total for all transactions in the bank statement.
  */
 
-package main.java.com.tanerijun;
+package main.java.com.tanerijun.old;
 
 import java.io.IOException;
 import java.nio.file.Files;
