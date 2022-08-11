@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be420c16-6774-4efd-81ef-55826a723464" name="Changes" comment="Add an example using lambda">
+    <list default="true" id="be420c16-6774-4efd-81ef-55826a723464" name="Changes" comment="Improve code organization">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tanerijun/IBankTransactionSummarizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tanerijun/SummaryStatistics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tanerijun/BankStatementAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tanerijun/BankStatementAnalyzer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tanerijun/BankStatementAnalyzerMonthTotal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tanerijun/old/BankStatementAnalyzerMonthTotal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tanerijun/BankStatementAnalyzerSimpleTotal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tanerijun/old/BankStatementAnalyzerSimpleTotal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tanerijun/BankStatementProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tanerijun/BankStatementProcessor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660143782939</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Improve code organization">
+      <created>1660144358362</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1660144358362</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -221,6 +228,7 @@
     <MESSAGE value="Add a unit test" />
     <MESSAGE value="Add feature to find transactions by filter" />
     <MESSAGE value="Add an example using lambda" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add an example using lambda" />
+    <MESSAGE value="Improve code organization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improve code organization" />
   </component>
 </project>
